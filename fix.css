@@ -1,0 +1,88 @@
+body{
+    background-color: #000;
+}
+
+.back{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    height: 1px;
+    width: 1px;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 23vw 49vh 3px 3px #fff,-14vw 6vh 2px 2px #fff,-6vw -16vh 1px 3px #fff,-28vw -5vh 2px 3px #fff,34vw -21vh 1px 0px #fff,25vw -30vh 1px 0px #fff,24vw 32vh 1px 2px #fff,-12vw 20vh 2px 1px #fff,-31vw 50vh 2px 0px #fff,22vw -22vh 1px 2px #fff,-14vw -17vh 2px 2px #fff,-41vw 13vh 2px 2px #fff,43vw 24vh 2px 1px #fff,-6vw -6vh 1px 0px #fff,40vw 18vh 3px 3px #fff,2vw 30vh 3px 2px #fff,-29vw -7vh 0px 2px #fff,47vw 26vh 2px 3px #fff,-24vw 31vh 2px 1px #fff,-6vw -44vh 3px 3px #fff,42vw -15vh 1px 2px #fff,-43vw -15vh 0px 2px #fff,4vw 15vh 0px 1px #fff,-38vw 39vh 3px 0px #fff,-47vw 33vh 3px 0px #fff,22vw -38vh 2px 2px #fff,14vw -5vh 0px 2px #fff,8vw -34vh 1px 0px #fff,31vw -46vh 0px 1px #fff,9vw -9vh 2px 2px #fff,39vw 5vh 1px 0px #fff,22vw 49vh 0px 1px #fff,9vw -11vh 0px 3px #fff,38vw -45vh 3px 1px #fff,16vw 20vh 3px 2px #fff,50vw 29vh 0px 3px #fff,-26vw -42vh 1px 0px #fff,49vw -8vh 1px 0px #fff,3vw -37vh 3px 2px #fff,-15vw 9vh 0px 2px #fff,24vw -38vh 2px 2px #fff,-19vw -26vh 0px 1px #fff,50vw 40vh 2px 3px #fff,-47vw -39vh 3px 3px #fff,-21vw 29vh 1px 2px #fff,-9vw -40vh 3px 2px #fff,1vw -44vh 1px 0px #fff,-47vw -28vh 2px 0px #fff,19vw 0vh 0px 0px #fff,-2vw -40vh 3px 2px #fff,7vw -24vh 1px 0px #fff,30vw 20vh 0px 3px #fff,11vw -34vh 3px 3px #fff,-29vw 24vh 3px 2px #fff,34vw 6vh 0px 1px #fff,44vw -42vh 0px 1px #fff,1vw -42vh 0px 1px #fff,-39vw 13vh 2px 3px #fff,36vw -7vh 1px 1px #fff,-2vw -49vh 1px 3px #fff,-15vw 5vh 0px 0px #fff,37vw 15vh 1px 2px #fff,-29vw -28vh 0px 2px #fff,-39vw 3vh 1px 0px #fff,9vw 36vh 3px 0px #fff,-43vw -20vh 1px 2px #fff,35vw -39vh 0px 3px #fff,49vw 45vh 0px 1px #fff,6vw 41vh 0px 0px #fff,-48vw 1vh 3px 2px #fff,-19vw 29vh 0px 0px #fff,26vw -2vh 1px 1px #fff,-42vw -18vh 1px 3px #fff,-8vw 17vh 0px 0px #fff,-41vw -5vh 3px 3px #fff,35vw -39vh 1px 0px #fff,-29vw -1vh 0px 3px #fff,-40vw -1vh 3px 1px #fff,12vw -48vh 2px 1px #fff,-18vw -14vh 0px 3px #fff,-40vw -39vh 0px 0px #fff,49vw 49vh 0px 1px #fff,-48vw -31vh 1px 3px #fff,35vw 45vh 1px 2px #fff,-4vw 43vh 0px 0px #fff,-24vw -26vh 1px 3px #fff,25vw 0vh 1px 0px #fff,-5vw -39vh 1px 2px #fff,-23vw -29vh 0px 2px #fff,-10vw -4vh 3px 1px #fff,1vw 33vh 0px 1px #fff,16vw -24vh 0px 0px #fff,-6vw -9vh 3px 1px #fff,5vw 11vh 0px 3px #fff,48vw -37vh 0px 1px #fff,-21vw -16vh 2px 1px #fff,5vw 0vh 1px 3px #fff,-18vw 4vh 3px 2px #fff,28vw -17vh 1px 3px #fff,-33vw 49vh 2px 1px #fff;
+    animation: zoom 10s alternate infinite;
+}
+
+.mid{
+    position: fixed;
+    left:36%;
+    right: 50%;
+    top: 25%;
+    bottom: 25%;
+    height: 60%;
+    width: 30%;
+    border-radius: 5%;
+}
+
+.left{
+    position: fixed;
+    left:0%;
+    right: 50%;
+    top: 25%;
+    bottom: 25%;
+    height: 60%;
+    width: 30%;
+    border-radius: 5%;
+    color: blue;
+}
+
+.right{
+    position: fixed;
+    left:65%;
+    right: 0%;
+    top: 25%;
+    bottom: 25%;
+    height: 60%;
+    width: 30%;
+    border-radius: 5%;
+    color: blue;
+}
+
+h1 {
+    color: rgb(74, 146, 174);
+    font-size: 100px;
+    text-align: center;
+    text-shadow: gray;
+    text-decoration: underline;
+    margin-top: 2%;
+    margin-bottom: 0%;
+}
+
+h2 {
+    color: antiquewhite;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: gray;
+    margin-top: 0%;
+}
+
+@keyframes zoom {
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.5);
+    }
+
+}
+
+.next {
+    font-size:60px;
+    background-size: 200% 200%;
+    color: antiquewhite;
+    border-radius: 5%;
+    border-color: #fff ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 20%;
+}
